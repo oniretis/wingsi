@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { slideUp, opacity } from "./animation";
 import Rounded from "../common/RoundedButton";
 
-export default function index() {
+export default function Index() {
   const phrase =
     "Our global movement includes member Sections and Groups in Nigeria and Ghana with hopes to expand our reach to other African countries. We promote and amplify the voices of women and allies who are advancing peaceful and sustainable alternatives to crises and conflicts and human rights issues.. 💁";
   const description = useRef(null);
