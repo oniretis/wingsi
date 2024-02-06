@@ -84,7 +84,7 @@ export default function Program() {
                       </p>
                       <h3 className="text-lg font-semibold text-gray-900 ">
                         <a href="#" className="hover:underline">
-                          International Women's Day Brunch "Inspire Inclusion"
+                          International Womens Day Brunch :Inspire Inclusion
                         </a>
                       </h3>
                     </div>
