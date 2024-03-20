@@ -36,13 +36,13 @@ export default function Program() {
           alignItems: "center",
         }}
       >
-        <Image
+        {/* <Image
           width={700}
           height={700}
           src="/images/wd.jpg"
           alt=""
           className="md:w-1/2 w-full block h-full  object-contain "
-        />
+        /> */}
         <div className="container w-full block md:w-1/2 mx-auto px-5">
           <div className="flex flex-wrap items-center pt-10 justify-center ">
             {/* add it here */}

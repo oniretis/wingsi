@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const Work = () => {
@@ -27,30 +28,37 @@ export const Work = () => {
                 </svg>
                 Women
               </span>
-              <span className="text-sm">14 days ago</span>
+              <span className="text-sm">7th of March, 2024</span>
             </div>
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-              <a href="#">
-                Advancing peace by advocating for respect, protection and
-                promotion of women human rights
-              </a>
+              <a href="#">2024 International Women's Day Celebration.</a>
             </h2>
             <p className="mb-5 font-light text-gray-500 ">
-              In our advocacy within human rights bodies, we connect and
-              highlight interlinkages between human rights, disarmament, gender,
-              the Women, Peace and Security Agenda, non-discrimination,
-              socio-economic justice and the environment and demand
-              prioritisation of social justice and ecological well-being.
+              As part of WINGS Initiative activities to commemorate the
+              International Women's Day Celebration, we embarked on a walk to
+              create awareness on inclusion of women at all levels. The walk
+              took place in the city of Calabar, Cross River State, Nigeria.
+              WINGS Initiative rallied various women rights organisations, women
+              groups, women servicing organisations, religious and traditional
+              bodies.
             </p>
+            <div className="w-full mt-5 mb-10">
+              <Image
+                src="/images/1st.jpeg"
+                width={500}
+                height={500}
+                alt="first"
+              />
+            </div>
             <div className="flex justify-between items-center">
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <img
                   className="w-7 h-7 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                   alt="Jese Leos avatar"
                 />
                 <span className="font-medium ">Jese Leos</span>
-              </div>
+              </div> */}
               <a
                 href="#"
                 className="inline-flex items-center font-medium text-primary-600  hover:underline"
@@ -87,28 +95,45 @@ export const Work = () => {
                   />
                   <path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z" />
                 </svg>
-                Article
+                Traning
               </span>
-              <span className="text-sm">14 days ago</span>
+              <span className="text-sm">Nov 16, 2023</span>
             </div>
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-              <a href="#">Our first project with React</a>
+              <a href="#">
+                A One-day Training for Grassroots Women on Peace and Security.
+              </a>
             </h2>
             <p className="mb-5 font-light text-gray-500 ">
-              Static websites are now used to bootstrap lots of websites and are
-              becoming the basis for a variety of tools that even influence both
-              web designers and developers influence both web designers and
-              developers.
+              To commemorate the International Day of the Rural Woman, the
+              Akpabuyo Youth Parliament trained 70 women from Idundu Clan,
+              Akpabuyo Local Government Area, Cross River State, Nigeria in
+              peacebuilding. In recent years, there has been an increase in
+              insecurity. This conflict has escalated and intensified
+              threatening human security and survival of people most especially
+              women and girls. Rural women can play a crucial role as agents for
+              peacebuilding in their communities and beyond. Their unique
+              experiences, perspectives, and contributions can address the root
+              causes of conflict and contribute to sustainable peace.
             </p>
+
+            <div className="w-full mt-5 mb-10">
+              <Image
+                src="/images/2nd.jpeg"
+                width={500}
+                height={500}
+                alt="first"
+              />
+            </div>
             <div className="flex justify-between items-center">
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <img
                   className="w-7 h-7 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
                   alt="Bonnie Green avatar"
                 />
                 <span className="font-medium ">Bonnie Green</span>
-              </div>
+              </div> */}
               <a
                 href="#"
                 className="inline-flex items-center font-medium text-primary-600  hover:underline"

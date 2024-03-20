@@ -18,11 +18,11 @@ export const Hero = () => {
             >
               <img
                 className="absolute inset-0 rounded-2xl w-full h-full object-cover transform group-hover:scale-105 transition duration-200"
-                src="/images/2.jpg"
+                src="/images/ban.jpeg"
                 alt=""
               />
               <div className="absolute bottom-8 left-8">
-                <h2 className="font-heading text-white text-6xl sm:text-8xl uppercase max-w-xs">
+                <h2 className="font-heading text-orange-500 text-6xl sm:text-8xl uppercase max-w-xs">
                   WINGSI
                 </h2>
               </div>
@@ -44,13 +44,13 @@ export const Hero = () => {
                 href="#"
                 className="bg-gray-900 rounded-full hover:bg-gray-800 focus:ring-4 focus:ring-gray-200 text-white text-sm font-semibold px-4 h-12 inline-flex items-center transition duration-200"
               >
-                Contact Us
+                Register
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center p-10 -m-4">
+      <div className="flex justify-center items-center p-10 -m-4">
         <div className="w-1/2 md:w-1/3 lg:w-1/6 p-4">
           <img
             className="mx-auto flex-shrink-0 h-14"
@@ -65,7 +65,7 @@ export const Hero = () => {
             alt=""
           />
         </div>
-        <div className="w-1/2 md:w-1/3 lg:w-1/6 p-4">
+        {/* <div className="w-1/2 md:w-1/3 lg:w-1/6 p-4">
           <img
             className="mx-auto flex-shrink-0 h-20"
             src="/images/wil.webp"
@@ -78,7 +78,7 @@ export const Hero = () => {
             src="/images/un.png"
             alt=""
           />
-        </div>
+        </div> */}
         <div className="w-1/2 md:w-1/3 lg:w-1/6 p-4">
           {/* <img
             className="mx-auto flex-shrink-0 h-20"
