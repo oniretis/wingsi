@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
                         <input
                           className="w-full p-12 pr-4 py-4 text-sm text-gray-300 placeholder-gray-400 rounded-lg bg-gray-800 border border-gray-700 outline-none"
                           type="email"
-                          placeholder="info@bonnytell.com"
+                          placeholder="info@wingsi.com"
                         />
                       </div>
                     </div>

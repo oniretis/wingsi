@@ -31,12 +31,12 @@ export const Work = () => {
               <span className="text-sm">7th of March, 2024</span>
             </div>
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
-              <a href="#">2024 International Women's Day Celebration.</a>
+              <a href="#">2024 International Women&apos;s Day Celebration.</a>
             </h2>
             <p className="mb-5 font-light text-gray-500 ">
               As part of WINGS Initiative activities to commemorate the
-              International Women's Day Celebration, we embarked on a walk to
-              create awareness on inclusion of women at all levels. The walk
+              International Women&apos;s Day Celebration, we embarked on a walk
+              to create awareness on inclusion of women at all levels. The walk
               took place in the city of Calabar, Cross River State, Nigeria.
               WINGS Initiative rallied various women rights organisations, women
               groups, women servicing organisations, religious and traditional
